@@ -7,7 +7,7 @@ This project demonstrates the Monte Carlo method for estimating the value of π.
 In this code, we use the Monte Carlo method to estimate π by utilizing the relationship between the area of a circle and the area of a square. Here's how the code works:
 
 1. A matrix of size 1000x1000 is created and initialized with zeros.
-2. A circle with a radius of 250 is drawn within the matrix, along with a square that encloses the circle. Points inside the circle are set to 1, and half of the points inside the square are set to 0.5.
+2. A circle with a radius of 250 is drawn within the matrix, along with a square with a height equals of the radius. Points inside the circle are set to 1, and points inside the square are set to 0.5.
 3. A loop is executed 10,000 times. At each iteration, a random point is chosen within the matrix.
 4. The number of points chosen inside the circle is counted in the `circle` variable, and the number of points chosen inside the square is counted in the `square` variable.
 5. The `circle/square` ratio is used to estimate the value of π.
