@@ -4,7 +4,7 @@ This project demonstrates the Monte Carlo method for estimating the value of π.
 
 ## How does it work?
 
-In this code, we use the Monte Carlo method to estimate π by utilizing the relationship between the area of a circle and the area of a square that encloses it. Here's how the code works:
+In this code, we use the Monte Carlo method to estimate π by utilizing the relationship between the area of a circle and the area of a square. Here's how the code works:
 
 1. A matrix of size 1000x1000 is created and initialized with zeros.
 2. A circle with a radius of 250 is drawn within the matrix, along with a square that encloses the circle. Points inside the circle are set to 1, and half of the points inside the square are set to 0.5.
